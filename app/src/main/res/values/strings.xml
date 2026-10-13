@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Взмах</string>
+
+    <string name="service_title">Взмах — управление показом</string>
+    <string name="service_channel_name">Сессия презентации</string>
+    <string name="service_channel_description">Держит Bluetooth HID-соединение с компьютером во время выступления</string>
+    <string name="service_status_waiting">Ожидание компьютера</string>
+    <string name="service_status_connecting">Подключение к %1$s…</string>
+    <string name="service_status_ready">%1$s · время %2$s</string>
+
+    <string name="notif_prev">◀ Назад</string>
+    <string name="notif_next">Вперёд ▶</string>
+    <string name="notif_blank">Экран</string>
+
+    <string name="brand_name">Взмах</string>
+    <string name="status_connected">подключено</string>
+    <string name="status_connecting">Подключение…</string>
+    <string name="status_registered">нажмите</string>
+    <string name="status_disconnected">Нет связи</string>
+    <string name="status_error">Ошибка HID</string>
+    <string name="status_bluetooth_off">Bluetooth выкл.</string>
+    <string name="status_permission">Нет прав</string>
+
+    <string name="hosts_dialog_title">Выберите компьютер</string>
+    <string name="hosts_empty">Нет сопряжённых устройств. Сопрягите ПК в системных настройках Bluetooth.</string>
+    <string name="hosts_guide_open">Инструкция подключения</string>
+    <string name="hosts_refresh">Обновить список</string>
+    <string name="hosts_disconnect">Отключиться</string>
+    <string name="hosts_reconnect">Переподключить</string>
+    <string name="host_connected">подключено сейчас</string>
+    <string name="host_remembered">уже подключались</string>
+    <string name="host_forget">Забыть это устройство</string>
+
+    <string name="background_mode_title">Работа с выключенным экраном</string>
+    <string name="background_mode_hint">Держит Bluetooth-HID живым при свёрнутом приложении и выключенном экране, чтобы компьютер не разрывал и не переподключал соединение. Включено по умолчанию.</string>
+
+    <string name="session_caption">Презентация</string>
+    <string name="session_caption_idle">Показ не запущен</string>
+    <string name="session_reset">Сбросить</string>
+    <string name="quick_vibrations">Вибрация</string>
+    <string name="quick_wave">Жест ладонью</string>
+
+    <string name="bt_off_title">Bluetooth выключен</string>
+    <string name="bt_off_hint">Пульт работает по Bluetooth — без него клавиши не дойдут до компьютера</string>
+    <string name="bt_off_action">Включить</string>
+
+    <string name="pairing_title">Подключение к компьютеру — один раз</string>
+    <string name="pairing_intro">Это нужно сделать только в первый раз. Сопряжение — это знакомство телефона и компьютера по Bluetooth, после него они запомнят друг друга.</string>
+    <string name="pairing_step_1_title">Включите Bluetooth на телефоне</string>
+    <string name="pairing_step_1_text">Потяните шторку сверху вниз и нажмите на значок Bluetooth, чтобы он стал синим. Если сверху написано «Bluetooth выкл.», нажмите на надпись прямо здесь.</string>
+    <string name="pairing_step_2_title">Включите Bluetooth на компьютере</string>
+    <string name="pairing_step_2_text">На компьютере: Пуск → Параметры → Bluetooth и устройства → Bluetooth. В Windows 10: Пуск → Параметры → Устройства → Bluetooth.</string>
+    <string name="pairing_step_3_title">Найдите телефон в компьютере</string>
+    <string name="pairing_step_3_text">Оставьте окно настроек Bluetooth на компьютере открытым и нажмите «Обновить список» здесь в приложении. В списке должен появиться ваш телефон.</string>
+    <string name="pairing_step_4_title">Нажмите на телефон в списке</string>
+    <string name="pairing_step_4_text">Компьютер спросит код из цифр — подтвердите его на обоих экранах. После этого вверху появится зелёная надпись «подключено».</string>
+    <string name="pairing_note">Сопряжено, но не подключено? Такое бывает, если компьютер спит. Откройте на нём любой документ и нажмите «Обновить список».</string>
+    <string name="pairing_open_settings">Открыть настройки Bluetooth</string>
+    <string name="pairing_dismiss">Понятно</string>
+
+    <string name="permission_title">Нет доступа к Bluetooth</string>
+    <string name="permission_text">Пульт отправляет команды компьютеру по Bluetooth. Без разрешения «Подключение к устройствам» клавиши и указка не будут работать. Разрешение можно включить в настройках приложения.</string>
+    <string name="permission_open_settings">Открыть настройки приложения</string>
+    <string name="action_apply">Применить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_reset">Сбросить таймер</string>
+
+    <string name="mode_touch">Сенсор</string>
+    <string name="mode_mouse">Мышь</string>
+    <string name="mode_pointer">Указка</string>
+
+    <string name="touch_prev">▲ НАЗАД</string>
+    <string name="touch_next_label">СЛЕДУЮЩИЙ СЛАЙД</string>
+
+    <string name="mouse_title">Тачпад</string>
+    <string name="mouse_subtitle">Водите пальцем — курсор повторяет. Тап — клик. Удерживайте — перетаскивайте. Два пальца — колесо и правый клик.</string>
+    <string name="mouse_speed_slow">Точно</string>
+    <string name="mouse_speed_normal">Обычно</string>
+    <string name="mouse_speed_fast">Быстро</string>
+    <string name="mouse_speed_custom">Ручной</string>
+    <string name="mouse_speed_label">Скорость указателя</string>
+    <string name="mouse_cursor_label">Курсор</string>
+    <string name="mouse_scroll_speed_label">Скорость скролла</string>
+    <string name="mouse_invert_y">Инверсия по вертикали</string>
+    <string name="mouse_left_click">ЛКМ</string>
+    <string name="mouse_right_click">ПКМ</string>
+
+    <string name="mode_keyboard">Клавиатура</string>
+    <string name="kb_hint">Текст появится на компьютере</string>
+    <string name="kb_clear">Очистить поле</string>
+    <string name="kb_modifier_hint">Модификатор применяется к следующей клавише</string>
+    <string name="kb_layout_hint">🌐 Язык переключает раскладку на компьютере (Win+Пробел)</string>
+    <string name="mouse_dragging">Перетаскиваете…</string>
+    <string name="mouse_ready">Водите пальцем</string>
+    <string name="wave_next_slide_label">Провод ладонью = следующий слайд</string>
+
+    <string name="pointer_hold">ВЕДИТЕ ПАЛЬЦЕМ</string>
+    <string name="pointer_hold_hint">Двигайте палец по площадке — курсор следует за пальцем</string>
+    <string name="pointer_pen_hint">Нажмите пальцем и ведите — перо рисует</string>
+    <string name="pointer_laser">Лазер</string>
+    <string name="pointer_pen">Перо</string>
+    <string name="pointer_arrow">Стрелка</string>
+    <string name="pointer_erase">Стереть</string>
+    <string name="pointer_preset_title">Программа показа</string>
+    <string name="pointer_preset_powerpoint">PowerPoint</string>
+    <string name="pointer_preset_slides">Slides</string>
+    <string name="pointer_preset_impress">Impress</string>
+    <string name="pointer_preset_none">Без</string>
+    <string name="pointer_preset_hint_powerpoint">Лазер Ctrl+L · Перо Ctrl+P · Стрелка Ctrl+A · Стереть E</string>
+    <string name="pointer_preset_hint_slides">Лазер L · Перо Shift+L · Стереть Shift+A · Стрелка — обычный курсор</string>
+    <string name="pointer_preset_hint_impress">Перо P · Стрелка Ctrl+A · Стереть E · лазера в Impress нет</string>
+    <string name="pointer_preset_hint_none">Кнопки не нажимают клавиш — меняется только инструмент в приложении</string>
+
+    <string name="bottom_blank">Экран (B)</string>
+    <string name="bottom_start">Старт (F5)</string>
+    <string name="bottom_start_current">С текущего (⇧F5)</string>
+    <string name="bottom_end">Выход (Esc)</string>
+
+    <string name="message_no_hosts">Сопрягите компьютер в настройках Bluetooth</string>
+    <string name="message_start_show">Запуск показа (F5)</string>
+    <string name="message_sensors_missing">Нет акселерометра или гироскопа</string>
+    <string name="message_not_delivered">Нет связи с компьютером</string>
+
+    <string name="hid_profile_unavailable">Системный HID-профиль недоступен</string>
+    <string name="hid_profile_busy">HID-профиль занят другим приложением</string>
+    <string name="connect_error">Ошибка подключения: %1$s</string>
+    <string name="device_not_bonded">Устройство %1$s больше не сопряжено</string>
+    <string name="connect_start_failed">Не удалось начать подключение к %1$s</string>
+
+    <string name="kb_layout_chip">🌐 Язык</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_back">Назад</string>
+    <string name="settings_section_general">Общее</string>
+    <string name="settings_section_mouse">Мышь и указатель</string>
+    <string name="settings_section_presentation">Показ</string>
+    <string name="settings_section_links">Помощь</string>
+    <string name="settings_pairing_guide">Инструкция подключения</string>
+    <string name="settings_tile_label">Взмах — пульт</string>
+</resources>

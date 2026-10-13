@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vzmah</string>
+
+    <string name="service_title">Vzmah — presentation remote</string>
+    <string name="service_channel_name">Presentation session</string>
+    <string name="service_channel_description">Keeps the Bluetooth HID link to your computer alive during your talk</string>
+    <string name="service_status_waiting">Waiting for computer</string>
+    <string name="service_status_connecting">Connecting to %1$s…</string>
+    <string name="service_status_ready">%1$s · time %2$s</string>
+
+    <string name="notif_prev">◀ Back</string>
+    <string name="notif_next">Forward ▶</string>
+    <string name="notif_blank">Screen</string>
+
+    <string name="brand_name">Vzmah</string>
+    <string name="status_connected">connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_registered">tap</string>
+    <string name="status_disconnected">No link</string>
+    <string name="status_error">HID error</string>
+    <string name="status_bluetooth_off">Bluetooth off</string>
+    <string name="status_permission">No permission</string>
+
+    <string name="hosts_dialog_title">Choose a computer</string>
+    <string name="hosts_empty">No paired devices. Pair your PC in the system Bluetooth settings.</string>
+    <string name="hosts_guide_open">Pairing guide</string>
+    <string name="hosts_refresh">Refresh list</string>
+    <string name="hosts_disconnect">Disconnect</string>
+    <string name="hosts_reconnect">Reconnect</string>
+    <string name="host_connected">connected now</string>
+    <string name="host_remembered">paired before</string>
+    <string name="host_forget">Forget this device</string>
+
+    <string name="background_mode_title">Keep running with the screen off</string>
+    <string name="background_mode_hint">Keeps Bluetooth HID alive while the app is minimized and the screen is off, so the computer does not drop and re-pair the connection. On by default.</string>
+
+    <string name="session_caption">Presentation</string>
+    <string name="session_caption_idle">No show running</string>
+    <string name="session_reset">Reset</string>
+    <string name="quick_vibrations">Vibration</string>
+    <string name="quick_wave">Palm gesture</string>
+
+    <string name="bt_off_title">Bluetooth is off</string>
+    <string name="bt_off_hint">The remote works over Bluetooth — without it keystrokes never reach the computer</string>
+    <string name="bt_off_action">Turn on</string>
+
+    <string name="pairing_title">Connect to your computer — once</string>
+    <string name="pairing_intro">You only need to do this the first time. Pairing is the phone and the computer getting to know each other over Bluetooth; afterwards they remember each other.</string>
+    <string name="pairing_step_1_title">Turn on Bluetooth on your phone</string>
+    <string name="pairing_step_1_text">Pull the notification shade down and tap the Bluetooth icon so it turns blue. If it says “Bluetooth off” up there, tap that line right here.</string>
+    <string name="pairing_step_2_title">Turn on Bluetooth on the computer</string>
+    <string name="pairing_step_2_text">On the computer: Start → Settings → Bluetooth &amp; devices → Bluetooth. On Windows 10: Start → Settings → Devices → Bluetooth.</string>
+    <string name="pairing_step_3_title">Find your phone on the computer</string>
+    <string name="pairing_step_3_text">Leave the Bluetooth settings window open on the computer and tap “Refresh list” here in the app. Your phone should appear in the list.</string>
+    <string name="pairing_step_4_title">Tap your phone in the list</string>
+    <string name="pairing_step_4_text">The computer asks for a numeric code — confirm it on both screens. A green “connected” label then appears at the top.</string>
+    <string name="pairing_note">Paired but not connected? That happens when the computer is asleep. Open any document on it and tap “Refresh list”.</string>
+    <string name="pairing_open_settings">Open Bluetooth settings</string>
+    <string name="pairing_dismiss">Got it</string>
+
+    <string name="permission_title">No access to Bluetooth</string>
+    <string name="permission_text">The remote sends commands to your computer over Bluetooth. Without the “Nearby devices” permission the keys and the pointer will not work. You can grant it in the app settings.</string>
+    <string name="permission_open_settings">Open app settings</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_reset">Reset timer</string>
+
+    <string name="mode_touch">Touch</string>
+    <string name="mode_mouse">Mouse</string>
+    <string name="mode_pointer">Pointer</string>
+
+    <string name="touch_prev">▲ BACK</string>
+    <string name="touch_next_label">NEXT SLIDE</string>
+
+    <string name="mouse_title">Trackpad</string>
+    <string name="mouse_subtitle">Move your finger — the cursor follows. Tap to click. Press and hold to drag. Two fingers for scrolling and right click.</string>
+    <string name="mouse_speed_slow">Precise</string>
+    <string name="mouse_speed_normal">Normal</string>
+    <string name="mouse_speed_fast">Fast</string>
+    <string name="mouse_speed_custom">Custom</string>
+    <string name="mouse_speed_label">Pointer speed</string>
+    <string name="mouse_cursor_label">Cursor</string>
+    <string name="mouse_scroll_speed_label">Scroll speed</string>
+    <string name="mouse_invert_y">Invert vertically</string>
+    <string name="mouse_left_click">LMB</string>
+    <string name="mouse_right_click">RMB</string>
+
+    <string name="mode_keyboard">Keyboard</string>
+    <string name="kb_hint">Text will appear on the computer</string>
+    <string name="kb_clear">Clear field</string>
+    <string name="kb_modifier_hint">The modifier applies to the next key</string>
+    <string name="kb_layout_hint">🌐 Language switches the layout on the computer (Win+Space)</string>
+    <string name="mouse_dragging">Dragging…</string>
+    <string name="mouse_ready">Move your finger</string>
+    <string name="wave_next_slide_label">Palm swipe = next slide</string>
+
+    <string name="pointer_hold">MOVE YOUR FINGER</string>
+    <string name="pointer_hold_hint">Move your finger across the pad — the cursor follows it</string>
+    <string name="pointer_pen_hint">Touch and drag — the pen draws</string>
+    <string name="pointer_laser">Laser</string>
+    <string name="pointer_pen">Pen</string>
+    <string name="pointer_arrow">Arrow</string>
+    <string name="pointer_erase">Erase</string>
+    <string name="pointer_preset_title">Presentation app</string>
+    <string name="pointer_preset_powerpoint">PowerPoint</string>
+    <string name="pointer_preset_slides">Slides</string>
+    <string name="pointer_preset_impress">Impress</string>
+    <string name="pointer_preset_none">None</string>
+    <string name="pointer_preset_hint_powerpoint">Laser Ctrl+L · Pen Ctrl+P · Arrow Ctrl+A · Erase E</string>
+    <string name="pointer_preset_hint_slides">Laser L · Pen Shift+L · Erase Shift+A · Arrow is the normal cursor</string>
+    <string name="pointer_preset_hint_impress">Pen P · Arrow Ctrl+A · Erase E · Impress has no laser</string>
+    <string name="pointer_preset_hint_none">The buttons press no keys — only the tool inside the app changes</string>
+
+    <string name="bottom_blank">Screen (B)</string>
+    <string name="bottom_start">Start (F5)</string>
+    <string name="bottom_start_current">From current (⇧F5)</string>
+    <string name="bottom_end">Exit (Esc)</string>
+
+    <string name="message_no_hosts">Pair your computer in the Bluetooth settings</string>
+    <string name="message_start_show">Starting show (F5)</string>
+    <string name="message_sensors_missing">No accelerometer or gyroscope</string>
+    <string name="message_not_delivered">No link to the computer</string>
+
+    <string name="hid_profile_unavailable">The system HID profile is unavailable</string>
+    <string name="hid_profile_busy">The HID profile is in use by another app</string>
+    <string name="connect_error">Connection error: %1$s</string>
+    <string name="device_not_bonded">Device %1$s is no longer paired</string>
+    <string name="connect_start_failed">Could not start connecting to %1$s</string>
+
+    <string name="kb_layout_chip">🌐 Language</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_mouse">Mouse &amp; pointer</string>
+    <string name="settings_section_presentation">Presentation</string>
+    <string name="settings_section_links">Help</string>
+    <string name="settings_pairing_guide">Pairing guide</string>
+    <string name="settings_tile_label">Vzmah remote</string>
+</resources>

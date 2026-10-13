@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vzmah_background">#FF0B0B0D</color>
+    <color name="vzmah_surface">#FF16161A</color>
+    <color name="vzmah_accent">#FFFFB703</color>
+</resources>
