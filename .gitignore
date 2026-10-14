@@ -10,3 +10,11 @@ captures/
 *.apk
 *.aab
 .kotlin/
+
+# Ключи и подпись RuStore — секреты, только локально
+pepk/
+release.keystore
+*.keystore
+*.jks
+keystore.properties
+keystore-pass.txt
